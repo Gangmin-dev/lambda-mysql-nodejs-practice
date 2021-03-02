@@ -1,0 +1,7 @@
+{
+    "DB_HOST":"mytestdatabase.c1t0iaypjlcw.ap-northeast-2.rds.amazonaws.com",
+    "DB_PORT":3306,
+    "DB_USER":"admin",
+    "DB_PASSWD":"12345678",
+    "DB_NAME":"schoolexample"
+ }
