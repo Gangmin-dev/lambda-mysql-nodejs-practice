@@ -78,11 +78,23 @@ functions:
     handler: handler.main
     events:
       - http:
-          path: index
+          path: class
           method: get
           cors: true
       - http:
-          path: class/{id}
+          path: class/create
+          method: post
+          cors: true
+      - http:
+          path: class/update
+          method: post
+          cors: true
+      - http:
+          path: class/delete
+          method: delete
+          cors: true
+      - http:
+          path: class/create_student
           method: post
           cors: true
     layers:

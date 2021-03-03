@@ -20,7 +20,7 @@ let template = {
   list: (elements) => {
     let list = "<ul>";
     for (let i = 0; i < elements.length; i++) {
-      list = list + `<li><a href="">${elements[i].name}</a></li>`;
+      list = list + `<li><a href="">${elements[i].class_name}</a></li>`;
     }
     list = list + "</ul>";
     return list;
